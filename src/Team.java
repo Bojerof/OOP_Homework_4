@@ -1,5 +1,3 @@
-package OopSem4;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +7,7 @@ public class Team <T extends Warrior>{
         team.add(warriorT);
         return this;
     }
+
 
     @Override
     public String toString() {

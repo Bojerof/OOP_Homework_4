@@ -1,5 +1,3 @@
-package OopSem4;
-
 import java.util.Random;
 
 public class Archer extends Warrior<Bow>{

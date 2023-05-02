@@ -1,9 +1,12 @@
-package OopSem4;
-
 public class Knife implements Weapon {
     @Override
     public int damage() {
         return 15;
+    }
+
+    @Override
+    public int protection() {
+        return 0;
     }
 
     @Override

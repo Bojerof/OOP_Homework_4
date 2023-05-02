@@ -1,9 +1,12 @@
-package OopSem4;
-
 public class Bow implements Weapon{
     @Override
     public int damage() {
         return 20;
+    }
+
+    @Override
+    public int protection() {
+        return 0;
     }
 
     public int range(){
